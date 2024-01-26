@@ -1,0 +1,10 @@
+function possedechaine(A,c)
+
+taille = size(c,2);
+
+for i=1:(taille-1)
+    if A(c(i),(i+1)) == 0
+        return false;
+    end
+    
+end
